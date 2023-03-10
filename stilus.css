@@ -1,7 +1,32 @@
-.formazas{
-    background-color: bisque;
-    border: 1px, solid, black;
+.formazas {
+  background-color: bisque;
 }
-img{
-    width: 100px;
+img {
+  width: 100px;
+}
+.bal {
+  height: 100px;
+  grid-area: bal;
+}
+.jobb {
+  height: 100px;
+  grid-area: jobb;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nagykép {
+  grid-area: kep;
+}
+article {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 500px) {
+  article {
+    display: flex;
+    flex-direction: column;
+  }
 }
